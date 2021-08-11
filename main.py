@@ -100,6 +100,7 @@ def main(user, passwd, step):
     #print(response)
     result = f"{user[:4]}****{user[-4:]}: [{now}] 修改步数（{step}）"+ response['message']
     print(result)
+    print(step)
     return result
   
 #获取时间戳
